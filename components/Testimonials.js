@@ -6,10 +6,10 @@ const Testimonials = () => {
       <div className="col-lg-12">
         {/* title */}
         <h5 className="trm-mb-40 trm-title-with-divider">
-          Testimonials <span data-number={9} />
+          Certificates <span data-number={9} />
         </h5>
 
-        {/* testimonials slider */}
+        {/* certificates slider */}
         <Swiper
           {...sliderProps.testimonials}
           className="swiper-container trm-testimonials-slider trm-scroll-animation"
@@ -25,19 +25,18 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/testimonials/1.jpg" alt="Client" />
-                <h6 className="trm-mb-15">Paul Freeman</h6>
+                <img src="/img/certificates/1.png" alt="Introduction To Cybersecurity" />
+                <h6 className="trm-mb-15">Introduction To Cybersecurity</h6>
                 <div className="trm-text-sm trm-accent-color">
-                  <i>Interior designer</i>
+                  <i>TryHackMe</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                  This room is designed for complete beginners. It covers the
+                  basics of cybersecurity, networking, and Linux. It is a
+                  starting point for anyone who is interested in cybersecurity
+                  and wants to learn more about it.
                 </p>
               </div>
             </div>
@@ -51,19 +50,19 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/testimonials/2.jpg" alt="Client" />
-                <h6 className="trm-mb-15">Oscar Oldman</h6>
+                <img src="/img/certificates/3.png" alt="Web Fundamentals" />
+                <h6 className="trm-mb-15">Web Fundamentals</h6>
                 <div className="trm-text-sm trm-accent-color">
-                  <i>Photographer</i>
+                  <i>TryHackMe</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                  This room is designed for complete beginners. It covers the
+                  basics of web security, networking, and Linux. It is a
+                  starting point for anyone who is interested in web security
+                  and wants to learn more about it.
+
                 </p>
               </div>
             </div>
@@ -77,19 +76,16 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/testimonials/3.jpg" alt="Client" />
-                <h6 className="trm-mb-15">Viktoria Newman</h6>
+                <img src="/img/certificates/2.png" alt="Pre Security" />
+                <h6 className="trm-mb-15">Pre Security</h6>
                 <div className="trm-text-sm trm-accent-color">
-                  <i>Model</i>
+                  <i>TryHackMe</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                I have acquired the prerequisite technical knowledge necessary to begin a career in cybersecurity,
+                 which is essential whether one intends to attack or defend technological systems.
                 </p>
               </div>
             </div>
@@ -103,19 +99,18 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/testimonials/1.jpg" alt="Client" />
-                <h6 className="trm-mb-15">Paul Freeman</h6>
+                <img src="/img/certificates/4.png" alt="power bi" />
+                <h6 className="trm-mb-15">Getting Started with Power BI Desktop</h6>
                 <div className="trm-text-sm trm-accent-color">
-                  <i>Interior designer</i>
+                  <i>Coursera</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                  This course is designed for complete beginners. It covers the
+                  basics of Power BI Desktop, data visualization, and data
+                  analysis. It is a starting point for anyone who is interested
+                  in Power BI and wants to learn more about it.
                 </p>
               </div>
             </div>
@@ -129,19 +124,18 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/testimonials/2.jpg" alt="Client" />
-                <h6 className="trm-mb-15">Oscar Oldman</h6>
+                <img src="/img/certificates/5.png" alt="cloud" />
+                <h6 className="trm-mb-15">Hybrid and Azure Cloud Foundations Workshop</h6>
                 <div className="trm-text-sm trm-accent-color">
-                  <i>Photographer</i>
+                  <i>NextGen Campus</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                  This workshop is designed for complete beginners. It covers the
+                  basics of cloud computing(Azure), networking, and Linux. It is a
+                  starting point for anyone who is interested in cloud computing
+                  and wants to learn more about it.
                 </p>
               </div>
             </div>
@@ -155,19 +149,41 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/testimonials/3.jpg" alt="Client" />
-                <h6 className="trm-mb-15">Viktoria Newman</h6>
+                <img src="/img/certificates/ecu.jpeg" alt="ecu" />
+                <h6 className="trm-mb-15">Techno-Trek CTF 2023</h6>
                 <div className="trm-text-sm trm-accent-color">
-                  <i>Model</i>
+                  <i>Edith Cowan University</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Molestias officia, debitis minus repellat saepe? Deleniti
-                  blanditiis optio inventore nulla dicta fugiat culpa quis unde,
-                  sequi debitis ex ab! Sapiente vitae rem tempore sunt! Aperiam
-                  eveniet mollitia, quae architecto nostrum.
+                  I have participated in the Techno-Trek CTF 2023,
+                   a Capture The Flag competition organized by Edith Cowan University - Sri Lanka.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div
+              className="trm-testimonial-card"
+              data-swiper-parallax=""
+              data-swiper-parallax-scale=".8"
+              data-swiper-parallax-opacity={0}
+              data-swiper-parallax-duration={800}
+            >
+              <div className="trm-testimonial-author">
+                <img src="/img/certificates/kdu.JPG" alt="kdu" />
+                <h6 className="trm-mb-15">Cypher 2.0 CTF Competition</h6>
+                <div className="trm-text-sm trm-accent-color">
+                  <i>AION x IEEE in KDU</i>
+                </div>
+              </div>
+              <div className="trm-testimonial-text">
+                <p>
+                  I have participated in the Cypher 2.0 CTF Competition,
+                   a Capture The Flag competition organized by the AION x IEEE WIE 
+                   Student Branch of General Sir John Kotelawala Defence University. 
+                   Achived 4<sup>th</sup> place in the competition. 
                 </p>
               </div>
             </div>

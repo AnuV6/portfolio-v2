@@ -25,7 +25,7 @@ const Counter = () => {
           data-scroll-offset={40}
         >
           <div className="trm-counter-number">
-            <span className="trm-counter">25</span>
+            <span className="trm-counter">15</span>
             <span className="trm-counter-symbol">+</span>
           </div>
           <div className="trm-divider trm-mb-20 trm-mt-20" />
@@ -41,7 +41,7 @@ const Counter = () => {
           data-scroll-offset={40}
         >
           <div className="trm-counter-number">
-            <span className="trm-counter">10</span>
+            <span className="trm-counter">20</span>
             <span className="trm-counter-symbol">+</span>
           </div>
           <div className="trm-divider trm-mb-20 trm-mt-20" />

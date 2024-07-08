@@ -2031,7 +2031,7 @@ testimonials
   z-index: 1;
   width: 100%;
   padding: 0 100px;
-  top: 50px;
+  top: 30%;
   left: 0;
   display: flex;
   justify-content: space-between;
@@ -2056,12 +2056,12 @@ testimonials
   text-align: center;
 }
 .trm-testimonial-card .trm-testimonial-author img {
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
+  height: 300px;
+  width: 450px;
+  border-radius: 3%;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: solid 3px #fcfcfe;
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.15);
 }

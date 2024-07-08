@@ -1,11 +1,13 @@
 "use client";
 
 const portfolioItems = [
-  { id: 1, img: "/img/portfolio/gobus.png", title: "GoBus Application" },
-  { id: 2, img: "/img/portfolio/ui.png", title: "UrbenEats UI Design" },
-  { id: 3, img: "/img/portfolio/qr.png", title: "Attendance Marking System" },
-  { id: 4, img: "/img/portfolio/soon.jpg", title: "Mobile Application" },
+  { id: 1, img: "/img/portfolio/gobus.png", title: "GoBus Application", githubUrl: "https://github.com/AnuV6/GoBus-App" },
+  { id: 2, img: "/img/portfolio/ui.png", title: "UrbenEats UI Design", githubUrl: "https://github.com/AnuV6/UrbenEatsApp-UI-Design" },
+  { id: 3, img: "/img/portfolio/qr.png", title: "Attendance Marking System", githubUrl: "https://github.com/AnuV6/QRscanner" },
+  { id: 4, img: "/img/portfolio/soon.jpg", title: "Mobile Application", githubUrl: "https://github.com/AnuV6/CareerPulse-Mobile-App" },
+  //add more items here...
 ];
+
 
 const Portfolio = () => {
   return (
@@ -16,13 +18,10 @@ const Portfolio = () => {
           Portfolio <span data-number={4} />
         </h5>
       </div>
-
       {portfolioItems.map((item) => (
         <div className="col-lg-6" key={item.id}>
           {/* portfolio item */}
-          <a
-            data-fancybox="portfolio"
-            href={item.img}
+          <div
             className="trm-portfolio-item trm-scroll-animation"
             data-scroll
             data-scroll-offset={40}
@@ -32,12 +31,21 @@ const Portfolio = () => {
               <img className="trm-cover" src={item.img} alt="item" />
             </div>
             <div className="trm-item-description">
-              <h6>{item.title}</h6>
-              <div className="trm-zoom-icon">
+              {/* Separate click area for project title */}
+              <h6 onClick={(e) => {
+                e.stopPropagation(); // Prevent triggering zoom
+                window.open(item.githubUrl, '_blank');
+              }}>{item.title}</h6>
+              {/* Zoom icon with fancybox attribute */}
+              <a
+                data-fancybox="portfolio"
+                href={item.img}
+                className="trm-zoom-icon"
+              >
                 <i className="fas fa-search-plus" />
-              </div>
+              </a>
             </div>
-          </a>
+          </div>
           {/* portfolio item end */}
         </div>
       ))}
@@ -45,3 +53,5 @@ const Portfolio = () => {
   );
 };
 export default Portfolio;
+
+
