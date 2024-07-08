@@ -4,43 +4,43 @@ const Price = () => {
       <div className="col-lg-12">
         {/* title */}
         <h5 className="trm-mb-40 trm-title-with-divider">
-          Price plans <span data-number={8} />
+          Profile Badges<span data-number={8} />
         </h5>
       </div>
       <div className="col-lg-6">
-        {/* price table */}
+        {/* profile table */}
         <div
-          className="trm-price trm-popular trm-scroll-animation"
+          className="trm-price  trm-scroll-animation"
           data-scroll=""
           data-scroll-offset={40}
         >
           {/* card header */}
           <div className="trm-price-header">
-            <h6>Hourly Payment</h6>
+            <h6>Try Hack Me</h6>
           </div>
           {/* card header end */}
-          {/* price */}
+          {/* badge */}
           <div className="trm-price-number">
-            <sup>$</sup>29<sup>h</sup>
+          <img src="https://tryhackme-badges.s3.amazonaws.com/Coder4113n.png" alt="TryHackMe" />
           </div>
-          {/* price end */}
-          <div className="trm-divider trm-mb-40 trm-mt-40" />
-          {/* price list */}
+          {/* badge end */}
+          <div className="trm-divider trm-mb-30 trm-mt-40" />
+          {/* list */}
           <ul className="trm-price-list">
-            <li className="trm-label">Amet lorem.</li>
-            <li className="trm-label">Dolor ipsum</li>
-            <li className="trm-label trm-label-light">Sit amet</li>
-            <li className="trm-label trm-label-light">Lorem dolor</li>
+            <li className="trm-label">In the top 8% of THM users</li>
+            <li className="trm-label">Hacker level</li>
+            <li className="trm-label">Completed 67 rooms</li>
+            <li className="trm-label">Achived 13 badges</li>
           </ul>
-          {/* price list end */}
-          <a data-fancybox="" href="#trm-order" className="trm-btn">
-            Order now <i className="fas fa-arrow-right" />
+          {/* list end */}
+          <a href="https://tryhackme.com/p/Coder4113n" target="blank" className="trm-btn">
+            View <i className="fas fa-arrow-right" />
           </a>
         </div>
-        {/* price table */}
+        {/* profile table */}
       </div>
       <div className="col-lg-6">
-        {/* price table */}
+        {/* profile table */}
         <div
           className="trm-price trm-scroll-animation"
           data-scroll=""
@@ -48,28 +48,32 @@ const Price = () => {
         >
           {/* card header */}
           <div className="trm-price-header">
-            <h6>Full Time</h6>
+            <h6>Hach The Box </h6>
           </div>
           {/* card header end */}
-          {/* price */}
+          {/* badge */}
           <div className="trm-price-number">
-            <sup>$</sup>2999<sup>h</sup>
+          <img src="https://www.hackthebox.eu/badge/image/1746923" alt="HackTheBox" />
           </div>
-          {/* price end */}
+          {/* badge end */}
           <div className="trm-divider trm-mb-40 trm-mt-40" />
-          {/* price list */}
+          {/* key list */}
           <ul className="trm-price-list">
-            <li className="trm-label">Amet lorem.</li>
-            <li className="trm-label">Dolor ipsum</li>
-            <li className="trm-label">Sit amet</li>
-            <li className="trm-label">Lorem dolor</li>
+            <li className="trm-label">
+              877<sup>th</sup> rank in the world</li>
+            <li className="trm-label">
+              Noob level</li>
+            <li className="trm-label">
+              0.2% of Hack The Box Pwned</li>
+            <li className="trm-label">
+              4.4% towards Script Kiddie</li>
           </ul>
-          {/* price list end */}
-          <a data-fancybox="" href="#trm-order" className="trm-btn">
-            Order now <i className="fas fa-arrow-right" />
+          {/* key list end */}
+          <a href="https://app.hackthebox.com/profile/1746923" target="blank" className="trm-btn">
+            View <i className="fas fa-arrow-right" />
           </a>
         </div>
-        {/* price table end */}
+        {/* badge table end */}
       </div>
     </div>
   );

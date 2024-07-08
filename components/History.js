@@ -20,24 +20,23 @@ const History = () => {
             <div className="trm-a trm-timeline-content">
               <div className="trm-card-header">
                 <div className="trm-left-side">
-                  <h6 className="trm-mb-15">Toronto Art School</h6>
+                  <h6 className="trm-mb-15">Bachelor of ICT</h6>
                   <div className="trm-text-sm trm-accent-color trm-mb-15">
-                    <i>jan 2018 - may 2020</i>
+                    <i>USJP | 2021 - 2025</i>
                   </div>
                 </div>
               </div>
-              <div className="trm-mb-20">
-                Dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                dolorum provident rerum aut hic quasi placeat iure tempora
-                laudantium ipsa ad debitis unde. Quasi placeat. Iste
-                voluptatibus minus veritatis qui ut.
+              <div className="trm-mb-20" style={{ textAlign: 'justify' }}>
+                I am currently pursuing my Bachelor's degree in ICT at the University of Sri Jayewardenepura, Sri Lanka. 
+                I have completed a number of modules in the field of ICT, including programming, web development, IOT, networking and database management. I specialize in networking and have completed a number of projects in this field. 
+                I am also a member of the ICT society of the university, where I have participated in a number of events and workshops.
               </div>
               <a
                 data-fancybox
-                href="files/diploma.jpg"
+                href="files/soon.png"
                 className="trm-label trm-label-color"
               >
-                Diploma <i className="fas fa-arrow-right" />
+                Degree <i className="fas fa-arrow-right" />
               </a>
             </div>
           </div>
@@ -51,24 +50,17 @@ const History = () => {
             <div className="trm-a trm-timeline-content">
               <div className="trm-card-header">
                 <div className="trm-left-side">
-                  <h6 className="trm-mb-15">Designe Academy</h6>
+                  <h6 className="trm-mb-15">GCE Advanced Level</h6>
                   <div className="trm-text-sm trm-accent-color trm-mb-15">
-                    <i>jan 2018 - may 2020</i>
+                    <i>Technology Stream - 2020</i>
                   </div>
                 </div>
               </div>
-              <div className="trm-mb-20">
-                Dolorum tempora provident rerum aut hic quasi placeat iure
-                tempora timeline de laudantium ipsa ad debitis unde quasi
-                placeat Iste voluptatibus minus veritatis qui ut.
+              <div className="trm-mb-10" style={{ textAlign: 'justify' }}>
+              I did my A Levels in technology stream, where I studied ICT, SFT and ET.
+              scoring all A's and B's! My Z-score was an impressive 2.2025,
+              which allowed me to enter the University of Sri Jayewardenepura, Sri Lanka.
               </div>
-              <a
-                data-fancybox
-                href="files/diploma.jpg"
-                className="trm-label trm-label-color"
-              >
-                Diploma <i className="fas fa-arrow-right" />
-              </a>
             </div>
           </div>
         </div>
@@ -86,15 +78,16 @@ const History = () => {
             <div className="trm-a trm-timeline-content">
               <div className="trm-card-header">
                 <div className="trm-left-side">
-                  <h6 className="trm-mb-15">Graphic Designer</h6>
+                  <h6 className="trm-mb-15">CTF Player</h6>
                   <div className="trm-text-sm trm-accent-color trm-mb-15">
-                    <i>jan 2018 - may 2020</i>
+                    <i>jan 2022 - Present</i>
                   </div>
                 </div>
               </div>
-              <div>
-                Dolorum provident rerum aut hic quasi placeat iure tempora
-                laudantium ipsa ad debitis unde.
+              <div style={{ textAlign: 'justify' }}>
+              I am a CTF player, specializing in solving challenges in Capture The Flag competitions.
+               I am a member of the University of Sri Jayewardenepura CTF team, 
+               where I have participated in a number of competitions.
               </div>
             </div>
           </div>
@@ -108,15 +101,14 @@ const History = () => {
             <div className="trm-a trm-timeline-content">
               <div className="trm-card-header">
                 <div className="trm-left-side">
-                  <h6 className="trm-mb-15">UI/UX Designer</h6>
+                  <h6 className="trm-mb-15">Bug Hunter</h6>
                   <div className="trm-text-sm trm-accent-color trm-mb-15">
-                    <i>jan 2018 - may 2020</i>
+                    <i>jan 2020 - Present</i>
                   </div>
                 </div>
               </div>
-              <div>
-                Iusto quasi placeat iure tempora laudantium ipsa ad debitis
-                unde.
+              <div style={{ textAlign: 'justify' }}>
+                I am a bug hunter, specializing in finding and reporting bugs in websites and web applications.
               </div>
             </div>
           </div>
@@ -130,13 +122,15 @@ const History = () => {
             <div className="trm-a trm-timeline-content">
               <div className="trm-card-header">
                 <div className="trm-left-side">
-                  <h6 className="trm-mb-15">UI/UX Designer, Web Developer</h6>
+                  <h6 className="trm-mb-15">Freelancer</h6>
                   <div className="trm-text-sm trm-accent-color trm-mb-15">
-                    <i>jan 2018 - may 2020</i>
+                    <i>jan 2018 - Present</i>
                   </div>
                 </div>
               </div>
-              <div>Dolorum provident rerum aut hic quasi placeat iure</div>
+              <div style={{ textAlign: 'justify' }}>
+              I am a freelancer, in Fullstack web development. I have completed a number of projects for clients around
+              the world. I have a passion for creating beautiful and functional websites. </div>
             </div>
           </div>
         </div>

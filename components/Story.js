@@ -12,8 +12,7 @@ const Story = () => {
           data-scroll=""
           data-scroll-offset={40}
         >
-          Consectetur adipisicing elit. Rem minima maiores, praesentium, aperiam
-          eveniet tenetur consequatur beatae id est.
+          ICT undergrad with a burning passion for Cybersecurity. I'm coding my way to a DevOps career, where I can combine my technical skills to build secure and automated systems.
         </blockquote>
         {/* quote end */}
       </div>

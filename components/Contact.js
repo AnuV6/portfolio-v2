@@ -66,7 +66,7 @@ const ContactInfo = () => {
                 className="trm-black-icon"
               />
               <img
-                src="img/icons/icon-6w.svg"
+                src="../public/img/icons/icon-6w.svg"
                 alt="icon"
                 className="trm-white-icon"
               />

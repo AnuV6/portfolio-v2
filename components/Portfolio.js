@@ -1,12 +1,10 @@
 "use client";
 
 const portfolioItems = [
-  { id: 1, img: "/img/portfolio/1.jpg", title: "Branded cup" },
-  { id: 2, img: "/img/portfolio/2.jpg", title: "Stylish business card" },
-  { id: 3, img: "/img/portfolio/3.gif", title: "Mobile application" },
-  { id: 4, img: "/img/portfolio/4.jpg", title: "T-shirt print" },
-  { id: 5, img: "/img/portfolio/5.jpg", title: "T-shirt print" },
-  { id: 6, img: "/img/portfolio/6.jpg", title: "Branded Package" },
+  { id: 1, img: "/img/portfolio/gobus.png", title: "GoBus Application" },
+  { id: 2, img: "/img/portfolio/ui.png", title: "UrbenEats UI Design" },
+  { id: 3, img: "/img/portfolio/qr.png", title: "Attendance Marking System" },
+  { id: 4, img: "/img/portfolio/soon.jpg", title: "Mobile Application" },
 ];
 
 const Portfolio = () => {
