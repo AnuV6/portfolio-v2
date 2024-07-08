@@ -1,11 +1,11 @@
 "use client";
-import Banner from "@/components/Banner";
-import ContactPopup from "@/components/ContactPopup";
-import Footer from "@/components/Footer";
-import SideBar from "@/components/SideBar";
-import TopBar from "@/components/TopBar";
-import VideoPopup from "@/components/VideoPopup";
-import { trueManUtility } from "@/utility";
+import Banner from "../components/Banner";
+import ContactPopup from "../components/ContactPopup";
+import Footer from "../components/Footer";
+import SideBar from "../components/SideBar";
+import TopBar from "../components/TopBar";
+import VideoPopup from "../components/VideoPopup";
+import { trueManUtility } from "../utility";
 import { Fancybox } from "@fancyapps/ui";
 import { Fragment, useEffect } from "react";
 const TrueManLayout = ({ children, noSidebar, onePage }) => {

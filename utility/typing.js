@@ -2,10 +2,14 @@ export const typing = () => {
   const text = document.querySelector(".trm-typed-text");
 
   const words = [
-    "UI/UX Designer",
     "Web Developer",
-    "Photographer",
-    "Dreamer :)",
+    "CTF Player",
+    "UI/UX Designer",
+    "Tech Enthusiast",
+    "Fast Learner",
+    "Problem Solver",
+    "Bug Hunter",
+
   ];
 
   setTyper(text, words);
@@ -75,10 +79,13 @@ REINIT
     const text = document.querySelector(".trm-typed-text");
 
     const words = [
-      "UI/UX Designer",
       "Web Developer",
-      "Photographer",
-      "Dreamer :)",
+      "CTF Player",
+      "UI/UX Designer",
+      "Tech Enthusiast",
+      "Fast Learner",
+      "Problem Solver",
+      "Bug Hunter",
     ];
 
     setTyper(text, words);

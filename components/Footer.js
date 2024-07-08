@@ -9,13 +9,8 @@ const Footer = () => {
         © {new Date().getFullYear()} All Rights Reserved.
       </div>
       <div className="trm-label">
-        Developed by:{" "}
-        <a
-          href="https://themeforest.net/user/bslthemes"
-          target="_blank"
-        >
-          BSLTHEMES
-        </a>
+        Developed by: {" "} 
+        <a href="">CoderAllen</a>
       </div>
     </footer>
   );

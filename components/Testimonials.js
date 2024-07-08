@@ -1,4 +1,4 @@
-import { sliderProps } from "@/utility/sliderProps";
+import { sliderProps } from "../utility/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Testimonials = () => {
   return (

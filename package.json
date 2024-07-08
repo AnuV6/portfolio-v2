@@ -10,11 +10,19 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.33",
+    "bootstrap": "^5.3.3",
     "locomotive-scroll": "^4.1.4",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-player": "^2.14.1",
-    "swiper": "^11.0.5"
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "typescript": "5.5.3"
   }
 }

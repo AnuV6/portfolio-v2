@@ -1,5 +1,5 @@
 "use client";
-import { context } from "@/context/context";
+import { context } from "../context/context";
 import { useContext } from "react";
 
 const TrueManModeCss = () => {

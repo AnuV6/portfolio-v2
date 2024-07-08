@@ -1,5 +1,5 @@
 "use client";
-import { trueManUtility } from "@/utility";
+import { trueManUtility } from "../utility";
 import { Fragment, useEffect } from "react";
 
 const Preloader = () => {

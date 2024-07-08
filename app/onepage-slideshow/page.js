@@ -1,16 +1,16 @@
 "use client";
-import Contact from "@/components/Contact";
-import Counter from "@/components/Counter";
-import History from "@/components/History";
-import Portfolio from "@/components/Portfolio";
-import Price from "@/components/Price";
-import Services from "@/components/Services";
-import Skills from "@/components/Skills";
-import Story from "@/components/Story";
-import Testimonials from "@/components/Testimonials";
-import VideoResume from "@/components/VideoResume";
-import { context } from "@/context/context";
-import TrueManLayout from "@/layout/TrueManLayout";
+import Contact from "/components/Contact";
+import Counter from "/components/Counter";
+import History from "/components/History";
+import Portfolio from "/components/Portfolio";
+import Price from "/components/Price";
+import Services from "/components/Services";
+import Skills from "/components/Skills";
+import Story from "/components/Story";
+import Testimonials from "/components/Testimonials";
+import VideoResume from "/components/VideoResume";
+import { context } from "/context/context";
+import TrueManLayout from "/layout/TrueManLayout";
 import { useContext, useEffect } from "react";
 const Index = () => {
   const { banner_type_function } = useContext(context);

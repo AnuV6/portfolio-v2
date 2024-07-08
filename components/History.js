@@ -4,7 +4,7 @@ const History = () => {
       <div className="col-lg-12">
         {/* title */}
         <h5 className="trm-mb-40 trm-title-with-divider">
-          Employment History <span data-number={7} />
+          My Journey <span data-number={7} />
         </h5>
       </div>
       <div className="col-lg-6">

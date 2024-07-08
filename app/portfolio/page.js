@@ -1,6 +1,8 @@
 "use client";
-import { context } from "@/context/context";
-import TrueManLayout from "@/layout/TrueManLayout";
+import { context } from "/context/context";
+
+
+import TrueManLayout from "/layout/TrueManLayout";
 import { useContext, useEffect } from "react";
 
 const portfolioItems = [

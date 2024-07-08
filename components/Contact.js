@@ -41,11 +41,11 @@ const ContactInfo = () => {
             <h6 className="trm-mb-20">Call</h6>
             <div className="trm-mb-15">
               <span className="trm-label">Work:</span>{" "}
-              <span className="trm-text-sm">+29 (044) 593 85 63</span>
+              <span className="trm-text-sm">+94 (070) 406 73 00</span>
             </div>
             <div>
               <span className="trm-label">Personal:</span>{" "}
-              <span className="trm-text-sm">+29 (044) 293 37 28</span>
+              <span className="trm-text-sm">+94 (076) 103 34 90</span>
             </div>
           </div>
         </div>
@@ -74,11 +74,11 @@ const ContactInfo = () => {
             <h6 className="trm-mb-20">Wright</h6>
             <div className="trm-mb-15">
               <span className="trm-label">Email:</span>{" "}
-              <span className="trm-text-sm">trueman.inbox@gmail.com</span>
+              <span className="trm-text-sm">anupa4085@gmail.com</span>
             </div>
             <div>
-              <span className="trm-label">Instagram:</span>{" "}
-              <span className="trm-text-sm">@emmatrueman</span>
+              <span className="trm-label">Linkedin:</span>{" "}
+              <span className="trm-text-sm">@anupadinuranga</span>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { typing } from "@/utility/typing";
+import { typing } from "../utility/typing";
 import { useEffect } from "react";
 
 const SideBar = () => {
@@ -24,7 +24,7 @@ const SideBar = () => {
               <img className="trm-avatar" src="/img/avatar.jpg" alt="Avatar" />
               <div className="trm-dot" />
             </div>
-            <h5 className="trm-name trm-mb-15">Emma Trueman</h5>
+            <h5 className="trm-name trm-mb-15">Anupa Dinuranga</h5>
             <div className="trm-label">
               I`m{" "}
               <span className="trm-typed-text">
@@ -36,16 +36,16 @@ const SideBar = () => {
           <div className="trm-divider trm-mb-40 trm-mt-40" />
           {/* sidebar social */}
           <div className="trm-social">
-            <a href="#." target="_blank">
+            <a href="https://www.linkedin.com/in/anupadinuranga/" target="_blank">
               <i className="fab fa-linkedin-in" />
             </a>
-            <a href="#." target="_blank">
-              <i className="fab fa-dribbble" />
+            <a href="https://www.github.com/AnuV6" target="_blank">
+              <i className="fab fa-github" />
             </a>
-            <a href="#." target="_blank">
-              <i className="fab fa-behance" />
+            <a href="https://stackoverflow.com/users/12830080/coder-allen" target="_blank">
+              <i className="fab fa-stack-overflow" />
             </a>
-            <a href="#." target="_blank">
+            <a href="https://www.twitter.com/AnuV6" target="_blank">
               <i className="fab fa-twitter" />
             </a>
           </div>
@@ -57,17 +57,17 @@ const SideBar = () => {
             {/* country */}
             <li>
               <div className="trm-label">Residence:</div>
-              <div className="trm-label trm-label-light">Canada</div>
+              <div className="trm-label trm-label-light">Sri Lanka</div>
             </li>
             {/* city */}
             <li>
               <div className="trm-label">City:</div>
-              <div className="trm-label trm-label-light">Toronto</div>
+              <div className="trm-label trm-label-light">Dambadeniya</div>
             </li>
             {/* age */}
             <li>
               <div className="trm-label">Age:</div>
-              <div className="trm-label trm-label-light">26</div>
+              <div className="trm-label trm-label-light">23</div>
             </li>
           </ul>
           {/* info end */}

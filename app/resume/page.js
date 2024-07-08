@@ -1,6 +1,6 @@
 "use client";
-import { context } from "@/context/context";
-import TrueManLayout from "@/layout/TrueManLayout";
+import { context } from "/context/context";
+import TrueManLayout from "/layout/TrueManLayout";
 import { useContext, useEffect } from "react";
 const Index = () => {
   const { banner_image_function, page_info_function } = useContext(context);

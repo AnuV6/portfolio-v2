@@ -20,6 +20,7 @@
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .mfp-container {
@@ -130,6 +131,7 @@ button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
+  appearance: none;
   -webkit-appearance: none;
   display: block;
   outline: none;
