@@ -19,7 +19,7 @@ const VideoResume = () => {
             <div className="trm-button-puls" />
             <a
               data-fancybox=""
-              href="https://www.youtube.com"
+              href="https://www.youtube.com/"
               className="trm-play-button"
             >
               <i className="fas fa-play" />

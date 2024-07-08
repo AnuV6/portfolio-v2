@@ -55,7 +55,7 @@ const Image = ({ banner_image }) => {
                 </h1>
                 <a
                   data-fancybox=""
-                  href="https://www.youtube.com"
+                  href="https://www.youtube.com/watch?v=Hfm94aHAbYQ"
                   className="trm-btn trm-btn-border"
                 >
                   Video Resume <i className="fas fa-play" />
@@ -169,7 +169,7 @@ const SliderBanner = ({}) => {
                 </h1>
                 <a
                   data-fancybox
-                  href="https://github.com/AnuV6/portfolio-v2/blob/master/public/files/soon.png"
+                  href="https://www.youtube.com/watch?v=Hfm94aHAbYQ"
                   className="trm-btn trm-btn-border"
                 >
                   Video Resume <i className="fas fa-play" />

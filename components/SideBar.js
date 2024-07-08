@@ -33,7 +33,7 @@ const SideBar = () => {
             </div>
           </div>
           {/* card header end */}
-          <div className="trm-divider trm-mb-40 trm-mt-40" />
+          <div className="trm-divider trm-mb-30 trm-mt-20" />
           {/* sidebar social */}
           <div className="trm-social">
             <a href="https://www.linkedin.com/in/anupadinuranga/" target="_blank">
@@ -51,7 +51,7 @@ const SideBar = () => {
           </div>
 
           {/* sidebar social end */}
-          <div className="trm-divider trm-mb-40 trm-mt-40" />
+          <div className="trm-divider trm-mb-30 trm-mt-20" />
           {/* info */}
           <ul className="trm-table trm-mb-20">
             {/* country */}
@@ -62,7 +62,7 @@ const SideBar = () => {
             {/* city */}
             <li>
               <div className="trm-label">City:</div>
-              <div className="trm-label trm-label-light">Dambadeniya</div>
+              <div className="trm-label trm-label-light">Homagama</div>
             </li>
             {/* age */}
             <li>
@@ -71,10 +71,9 @@ const SideBar = () => {
             </li>
           </ul>
           {/* info end */}
-          <div className="trm-divider trm-mb-40 trm-mt-40" />
           {/* action button */}
-          <div className="text-center">
-            <a data-fancybox="" href="#trm-order" className="trm-btn">
+          <div className="text-center trm-mt-10 trm-mb-10">
+            <a data-fancybox="" href="#contact-triger" className="trm-btn">
               Contact me <i className="far fa-envelope" />
             </a>
           </div>
