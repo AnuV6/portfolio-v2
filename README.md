@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📖📖 OpenLeaf (Flutter eBook App) [![Codemagic build status](https://api.codemagic.io/apps/5e230defc5faa60315b1df62/5e230defc5faa60315b1df61/status_badge.svg)](https://codemagic.io/apps/5e230defc5faa60315b1df62/5e230defc5faa60315b1df61/latest_build)
 
-## Getting Started
+[![Twitter Follow](https://img.shields.io/twitter/follow/iamjideguru.svg?style=social)](https://twitter.com/iamjideguru)
 
-First, run the development server:
+A simple Flutter app to Read and Download books. The Books included in the app
+are from the [Public Domain](https://en.wikipedia.org/wiki/Public_domain)
+(Expired Copyright and completely free).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<a href="http://www.feedbooks.com/"><img src="ss/logo_feedbooks.png" width="200"/></a>
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The [Feedbooks API](http://www.feedbooks.com/api) was used to fetch books. <br>
+<br>
+<a href="https://www.vecteezy.com/vector-art/599678-book-reading-logo-and-symbols-template-icons">App
+icon</a> <br> <br>
+To download this app, <a href="https://codemagic.io/apps/5e230defc5faa60315b1df62/5e230defc5faa60315b1df61/latest_build">click here</a> to see the codemagic builds. You can choose to install the `apk`.
+You can download from the appstore if you use an iPhone, iPad or a Mac with Silicon chip.
+<br>
+<a href="https://apps.apple.com/app/openleaf/id6450374275"><img src="https://www.freepnglogos.com/uploads/app-store-logo-png/download-on-the-app-store-logo-png-23.png" width="200"></img></a>
+<br> Please star⭐ the repo if you like what you see😉.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Any Operating System (ie. MacOS X, Linux, Windows)
+- Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+- A little knowledge of Dart and Flutter
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- [x] Download eBooks.
+- [x] Read eBooks.
+- [x] Favorites.
+- [x] Dark Mode
+- [x] Swipe to delete downloads.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 ScreenShots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- <img src="ss/mockup.png"/> -->
 
-## Deploy on Vercel
+| Light                             | Dark                              |
+| --------------------------------- | --------------------------------- |
+| <img src="ss/1.png" width="300">  | <img src="ss/2.png" width="300">  |
+| <img src="ss/3.png" width="300">  | <img src="ss/4.png" width="300">  |
+| <img src="ss/5.png" width="300">  | <img src="ss/6.png" width="300">  |
+| <img src="ss/7.png" width="300">  | <img src="ss/8.png" width="300">  |
+| <img src="ss/9.png" width="300">  | <img src="ss/10.png" width="300"> |
+| <img src="ss/11.png" width="300"> | <img src="ss/12.png" width="300"> |
+| <img src="ss/13.png" width="300"> | <img src="ss/14.png" width="300"> |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##### Desktop
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="ss/desktop_1.png" width="800">
+
+## 🔌 Plugins
+
+| Name                                                                   | Usage                                         |
+| ---------------------------------------------------------------------- | --------------------------------------------- |
+| [**Riverpod**](https://pub.dev/packages/flutter_riverpod)              | State Management                              |
+| [**Sembast**](https://pub.dev/packages/sembast)                        | NoSQL database to store Favorites & Downloads |
+| [**XML2JSON**](https://pub.dev/packages/xml2json)                      | Convert XML to JSON                           |
+| [**DIO**](https://pub.dev/packages/dio)                                | Network calls and File Download               |
+| [**Iridium Reader**](https://github.com/Mantano/iridium_reader_widget) | Plug and play reader widget for epubs         |
+
+## 🤓 Author(s)
+
+**Festus Babajide Olusegun**
+[![Twitter Follow](https://img.shields.io/twitter/follow/iamjideguru.svg?style=social)](https://twitter.com/iamjideguru)
+
+## 🔖 LICENCE
+
+[Apache-2.0](https://github.com/JideGuru/FlutterEbookApp/blob/master/LICENSE)
+
+<a href="https://github.com/JideGuru/FlutterEbookApp">
+        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=JideGuru/FlutterEbookApp&type=Date">
+      </a>
