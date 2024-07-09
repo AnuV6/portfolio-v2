@@ -27,10 +27,10 @@ const Services = () => {
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Architecture</h6>
+            <h6 className="trm-mb-20">Network Administrations</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+              I am a network administrator with a passion for creating smooth
+              and secure network experiences.              
             </div>
             <a
               data-fancybox=""
@@ -65,8 +65,8 @@ const Services = () => {
             </div>
             <h6 className="trm-mb-20">UI/UX Design</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+              I am a UI/UX designer with a passion for creating beautiful and
+              functional user experiences.
             </div>
             <a
               data-fancybox=""
@@ -99,10 +99,10 @@ const Services = () => {
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Interior Design</h6>
+            <h6 className="trm-mb-20">Fullstack Development</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+              I am a fullstack developer with a passion for creating intuitive
+              and functional websites.
             </div>
             <a
               data-fancybox=""
@@ -135,10 +135,10 @@ const Services = () => {
                 className="trm-white-icon"
               />
             </div>
-            <h6 className="trm-mb-20">Game design</h6>
+            <h6 className="trm-mb-20">Cloud Computing</h6>
             <div className="trm-mb-20">
-              Dolor sit amet, consectetur adipisicing elit. Delectus esse
-              commodi.
+              I am a cloud computing expert with a passion for creating secure
+              and scalable cloud solutions.
             </div>
             <a
               data-fancybox=""

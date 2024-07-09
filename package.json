@@ -4,19 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.33",
+    "body-parser": "^1.20.2",
     "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
     "locomotive-scroll": "^4.1.4",
     "next": "14.1.0",
+    "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
     "react-player": "^2.14.1",
-    "swiper": "^11.1.4"
+    "swiper": "^11.1.4",
+    "tailwindcss": "^3.4.4"
   },
   "devDependencies": {
     "@types/node": "20.14.10",

@@ -2015,6 +2015,14 @@ price
   opacity: 0.5;
 }
 
+.trm-price .trm-price-number img {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensure the image does not exceed its original width */
+  object-fit: cover; /* Cover the area of the container without losing aspect ratio */
+  margin-bottom: 20px;
+}
+
 /***************************
 
 certificates
@@ -2060,11 +2068,12 @@ certificates
   text-align: center;
 }
 .trm-testimonial-card .trm-testimonial-author img {
-  height: 300px;
-  width: 450px;
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  width: 100%; /* Make width responsive to the parent container */
+  max-width: 450px; /* Maximum width to not exceed the original width */
   border-radius: 3%;
-  object-fit: cover;
-  object-position: center;
+  object-fit: cover; /* Cover the container without losing aspect ratio */
+  object-position: center; /* Center the image within the container */
   margin-bottom: 10px;
   border: solid 3px #00283a;
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.6);
@@ -2078,6 +2087,7 @@ certificates
     overflow: hidden;
   }
 }
+
 /***************************
 
 timeline

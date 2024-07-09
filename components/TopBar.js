@@ -22,7 +22,7 @@ const TopBar = ({ onePage }) => {
       <div className="container">
         <div className="trm-left-side">
           {/* logo */}
-          <Link legacyBehavior href="onepage-slideshow">
+          <Link legacyBehavior href="#">
             <a className="trm-logo-frame trm-anima-link">
               <div className="trm-logo-text">
                 Coder<span>Allen</span>
@@ -40,7 +40,7 @@ const TopBar = ({ onePage }) => {
               ) : (
                 <ul>
                   <li className="menu-item-has-children">
-                    <Link legacyBehavior href="home">
+                    <Link legacyBehavior href="banner">
                       Home
                     </Link>
                   </li>
@@ -107,8 +107,8 @@ const OnePageMenu = () => {
     <ul>
       <li>
         <a
-          href="#home-triger"
-          data-scroll-to="#home-triger"
+          href="#content"
+          data-scroll-to="#"
           data-scroll-offset={-10}
         >
           Home
