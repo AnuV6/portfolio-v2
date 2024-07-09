@@ -1,7 +1,7 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
+<h1 align="center">Welcome to my portfolio v2 👋</h1>
+<a href="https://github.com/AnuV6/portfolio-v2/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/AnuV6/portfolio-v2"></a><a href="https://github.com/AnuV6/portfolio-v2/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/AnuV6/portfolio-v2"></a><a href="https://github.com/1hanzla100/AnuV6/portfolio-v2/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/AnuV6/portfolio-v2"></a> <a href="https://github.com/AnuV6/portfolio-v2/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/AnuV6/portfolio-v2"></a>
 
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+## Developer Portfolio built with Next.js, react that helps you showcase your work and skills as a developer.
 
 <p align="center">
   <kbd>
@@ -9,19 +9,17 @@
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
-
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+## To view a live example, **[click here](https://anupadinuranga.live)**.
 
 But if you want to **contribute** and make this much better for other developers have a look at
-[Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+[Issues](https://github.com/AnuV6/portfolio-v2/issues).
 
 If you created something awesome and want to contribute then feel free to open an
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+[pull request](https://github.com/AnuV6/portfolio-v2/pulls).
 
 ## Sections
 
-✔️ Summary and About me\
+✔️ About \
 ✔️ Skills\
 ✔️ Education\
 ✔️ Work Experience\
@@ -49,40 +47,26 @@ git@2.17.1 or higher
 1. Fork this repository and clone it to your local machine.
 
 ```bash
-$ git clone https://github.com/<your-username>/developer-portfolio.git
+$ git clone https://github.com/AnuV6/portfolio-v2.git
 ```
 
 2. Go into the repository
 
 ```bash
-$ cd developer-portfolio
+$ cd portfolio-v2
 ```
 
 3. Install dependencies
 
 ```bash
-$ yarn
+$ npm i
 ```
 
-4. Edit `portfolio.js`
-
-5. Start your development server
+4. Start your development server
 
 ```bash
-$ yarn dev
+$ npm run dev
 ```
-
-## Linking Portfolio to Github
-
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
-
-#### Using Emojis
-
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an
-argument. This would help in keeping emojis compatible across different browsers and platforms.
 
 ## Technologies Used
 
@@ -95,10 +79,6 @@ argument. This would help in keeping emojis compatible across different browsers
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
-## Illustrations
-
-- [Lottie File Source](https://lottiefiles.com)
-
 ## Icons
 
 Iconify Icons are used in the skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
@@ -106,23 +86,20 @@ Iconify Icons are used in the skill section. You can find all the icons here: [I
 ## For the Future
 
 If you can help us with these. Please don't hesitate to open a
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+[pull request](https://github.com/AnuV6/portfolio-v2/pulls).
 
-- Enable Dark Mode
-
-- Add More Sections
 
 ## Show your support
 
 Give a ⭐️ if this project helped you! You can buy me a coffee if you'd like to support my work further.
 <div>
-  <a href="https://www.buymeacoffee.com/1hanzla100"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=1hanzla100&button_colour=FFDD00&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+  <a href="https://www.buymeacoffee.com/coderallen"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=1hanzla100&button_colour=FFDD00&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
  </div>
 
 ## Author
 
-👤 **Hanzla Tauqeer**
+👤 **Coder Allen**
 
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+- Website: [Anupa_Dinuranga](https://anupadinuranga.live)
+- Github: [@AnuV6](https://github.com/AnuV6)
+- LinkedIn: [@anupadinuranga](https://linkedin.com/in/anupadinuranga)
