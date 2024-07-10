@@ -90,9 +90,6 @@ const SliderBanner = ({}) => {
       data-scroll-direction="vertical"
       data-scroll-speed={-1}
     >
-      {/* banner cover
-    <img src="img/banner.jpg" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-4">
-    banner cover end */}
       {/* banner slideshow cover */}
       <Swiper
         {...sliderProps.homeSlider}
@@ -103,7 +100,7 @@ const SliderBanner = ({}) => {
       >
         <SwiperSlide className="swiper-slide">
           <img
-            src="img/banner.jpg"
+            src="img/banner.webp"
             alt="banner"
             className="trm-banner-cover"
             data-swiper-parallax-y={-100}
@@ -112,7 +109,7 @@ const SliderBanner = ({}) => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src="img/banner2.jpg"
+            src="img/banner2.webp"
             alt="banner"
             className="trm-banner-cover"
             data-swiper-parallax-y={-100}
@@ -121,7 +118,7 @@ const SliderBanner = ({}) => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src="img/banner3.jpg"
+            src="img/banner3.avif"
             alt="banner"
             className="trm-banner-cover"
             data-swiper-parallax-y={-100}
@@ -130,7 +127,7 @@ const SliderBanner = ({}) => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src="img/banner4.jpg"
+            src="img/banner4.avif"
             alt="banner"
             className="trm-banner-cover"
             data-swiper-parallax-y={-100}
@@ -139,7 +136,7 @@ const SliderBanner = ({}) => {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <img
-            src="img/banner5.jpg"
+            src="img/banner5.avif"
             alt="banner"
             className="trm-banner-cover"
             data-swiper-parallax-y={-100}

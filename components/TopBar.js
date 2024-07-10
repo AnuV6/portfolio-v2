@@ -22,7 +22,7 @@ const TopBar = ({ onePage }) => {
       <div className="container">
         <div className="trm-left-side">
           {/* logo */}
-          <Link legacyBehavior href="#">
+          <Link legacyBehavior href="/">
             <a className="trm-logo-frame trm-anima-link">
               <div className="trm-logo-text">
                 Coder<span>Allen</span>

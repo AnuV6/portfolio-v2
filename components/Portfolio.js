@@ -1,10 +1,10 @@
 "use client";
 
 const portfolioItems = [
-  { id: 1, img: "/img/portfolio/gobus.png", title: "GoBus Application", githubUrl: "https://github.com/AnuV6/GoBus-App" },
-  { id: 2, img: "/img/portfolio/ui.png", title: "UrbenEats UI Design", githubUrl: "https://github.com/AnuV6/UrbenEatsApp-UI-Design" },
-  { id: 3, img: "/img/portfolio/qr.png", title: "Attendance Marking System", githubUrl: "https://github.com/AnuV6/QRscanner" },
-  { id: 4, img: "/img/portfolio/soon.jpg", title: "Mobile Application", githubUrl: "https://github.com/AnuV6/CareerPulse-Mobile-App" },
+  { id: 1, img: "/img/portfolio/gobus.webp", title: "GoBus Application", githubUrl: "https://github.com/AnuV6/GoBus-App" },
+  { id: 2, img: "/img/portfolio/ui.webp", title: "UrbenEats UI Design", githubUrl: "https://github.com/AnuV6/UrbenEatsApp-UI-Design" },
+  { id: 3, img: "/img/portfolio/qr.webp", title: "Attendance Marking System", githubUrl: "https://github.com/AnuV6/QRscanner" },
+  { id: 4, img: "/img/portfolio/soon.webp", title: "Mobile Application", githubUrl: "https://github.com/AnuV6/CareerPulse-Mobile-App" },
   //add more items here...
 ];
 

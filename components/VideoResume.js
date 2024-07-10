@@ -15,7 +15,7 @@ const VideoResume = () => {
           data-scroll-offset={40}
         >
           <div className="trm-video-content trm-overlay">
-            <img src="/img/video.jpg" alt="video-cover" />
+            <img src="/img/video.avif" alt="video-cover" />
             <div className="trm-button-puls" />
             <a
               data-fancybox=""

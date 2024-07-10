@@ -25,7 +25,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/1.png" alt="Introduction To Cybersecurity" />
+                <img src="/img/certificates/1.webp" alt="Introduction To Cybersecurity" />
                 <h6 className="trm-mb-15">Introduction To Cybersecurity</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>TryHackMe</i>
@@ -50,7 +50,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/3.png" alt="Web Fundamentals" />
+                <img src="/img/certificates/3.webp" alt="Web Fundamentals" />
                 <h6 className="trm-mb-15">Web Fundamentals</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>TryHackMe</i>
@@ -76,7 +76,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/2.png" alt="Pre Security" />
+                <img src="/img/certificates/2.webp" alt="Pre Security" />
                 <h6 className="trm-mb-15">Pre Security</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>TryHackMe</i>
@@ -99,7 +99,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/4.png" alt="power bi" />
+                <img src="/img/certificates/4.webp" alt="power bi" />
                 <h6 className="trm-mb-15">Getting Started with Power BI Desktop</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>Coursera</i>
@@ -124,7 +124,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/5.png" alt="cloud" />
+                <img src="/img/certificates/5.webp" alt="cloud" />
                 <h6 className="trm-mb-15">Hybrid and Azure Cloud Foundations Workshop</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>NextGen Campus</i>
@@ -149,7 +149,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/ecu.jpeg" alt="ecu" />
+                <img src="/img/certificates/ecu.webp" alt="ecu" />
                 <h6 className="trm-mb-15">Techno-Trek CTF 2023</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>Edith Cowan University</i>
@@ -172,7 +172,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/kdu.JPG" alt="kdu" />
+                <img src="/img/certificates/kdu.webp" alt="kdu" />
                 <h6 className="trm-mb-15">Cypher 2.0 CTF Competition</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>AION x IEEE in KDU</i>

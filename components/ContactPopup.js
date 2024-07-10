@@ -24,7 +24,7 @@ const ContactPopup = () => {
               * I promise the confidentiality of your personal information
             </div>
             <div className="trm-success-banner">
-              <img src="img/success.png" alt="success" className="trm-mb-15" />
+              <img src="img/success.avif" alt="success" className="trm-mb-15" />
               <h4 className="trm-mb-15">Success</h4>
               <div className="trm-text trm-mb-20">
                 Your message has been sent successfully

@@ -21,7 +21,7 @@ const SideBar = () => {
           {/* card header */}
           <div className="trm-mc-header">
             <div className="trm-avatar-frame trm-mb-20">
-              <img className="trm-avatar" src="/img/avatar.jpg" alt="Avatar" />
+              <img className="trm-avatar" src="/img/avatar.avif" alt="Avatar" />
               <div className="trm-dot" />
             </div>
             <h5 className="trm-name trm-mb-15">Anupa Dinuranga</h5>
