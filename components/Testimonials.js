@@ -1,5 +1,7 @@
 import { sliderProps } from "../utility/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+
 const Testimonials = () => {
   return (
     <div className="row">
@@ -25,7 +27,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/1.webp" alt="Introduction To Cybersecurity" />
+                <Image src="/img/certificates/1.webp" alt="Introduction To Cybersecurity" width={1000} height={800} />
                 <h6 className="trm-mb-15">Introduction To Cybersecurity</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>TryHackMe</i>
@@ -50,7 +52,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/3.webp" alt="Web Fundamentals" />
+                <Image src="/img/certificates/3.webp" alt="Web Fundamentals" width={1920} height={1080} />
                 <h6 className="trm-mb-15">Web Fundamentals</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>TryHackMe</i>
@@ -76,7 +78,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/2.webp" alt="Pre Security" />
+                <Image src="/img/certificates/2.webp" alt="Pre Security" width={1000} height={800} />
                 <h6 className="trm-mb-15">Pre Security</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>TryHackMe</i>
@@ -99,7 +101,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/4.webp" alt="power bi" />
+                <Image src="/img/certificates/4.webp" alt="power bi" width={1000} height={800} />
                 <h6 className="trm-mb-15">Getting Started with Power BI Desktop</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>Coursera</i>
@@ -124,7 +126,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/5.webp" alt="cloud" />
+                <Image src="/img/certificates/5.webp" alt="cloud" width={1000} height={800} />
                 <h6 className="trm-mb-15">Hybrid and Azure Cloud Foundations Workshop</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>NextGen Campus</i>
@@ -149,7 +151,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/ecu.webp" alt="ecu" />
+                <Image src="/img/certificates/ecu.webp" alt="ecu" width={1000} height={800} />
                 <h6 className="trm-mb-15">Techno-Trek CTF 2023</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>Edith Cowan University</i>
@@ -172,7 +174,7 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
-                <img src="/img/certificates/kdu.webp" alt="kdu" />
+                <Image src="/img/certificates/kdu.webp" alt="kdu" width={1000} height={800} />
                 <h6 className="trm-mb-15">Cypher 2.0 CTF Competition</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>AION x IEEE in KDU</i>

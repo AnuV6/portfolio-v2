@@ -1,10 +1,12 @@
 import { Fragment } from "react";
+import Image from "next/image";
+
 const ContactPopup = () => {
   return (
     <Fragment>
       <div id="trm-order" className="trm-order">
         <div className="trm-popup-content">
-          <img src="img/popup.jpg" alt="photo" />
+          <Image src="img/popup.jpg" alt="photo" height={100} width={100} />
           <div className="trm-popup-form-frame">
             <h5 className="trm-mb-40">Write me a message</h5>
             <form id="form1">
@@ -24,7 +26,7 @@ const ContactPopup = () => {
               * I promise the confidentiality of your personal information
             </div>
             <div className="trm-success-banner">
-              <img src="img/success.avif" alt="success" className="trm-mb-15" />
+              <Image src="img/success.avif" alt="success" className="trm-mb-15" height={100} width={100} />
               <h4 className="trm-mb-15">Success</h4>
               <div className="trm-text trm-mb-20">
                 Your message has been sent successfully

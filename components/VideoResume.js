@@ -1,3 +1,4 @@
+import Image from "next/image";
 const VideoResume = () => {
   return (
     <div className="row">
@@ -15,7 +16,7 @@ const VideoResume = () => {
           data-scroll-offset={40}
         >
           <div className="trm-video-content trm-overlay">
-            <img src="/img/video.avif" alt="video-cover" />
+            <Image src="/img/video.avif" alt="video-cover" width={150} height={250} />
             <div className="trm-button-puls" />
             <a
               data-fancybox=""

@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import Image from "next/image";
+
 const Contact = () => {
   return (
     <Fragment>
@@ -27,14 +29,18 @@ const ContactInfo = () => {
         >
           <div className="trm-service-content">
             <div className="trm-icon">
-              <img
+              <Image
                 src="img/icons/icon-5.svg"
                 alt="icon"
+                height={50}
+                width={50}
                 className="trm-black-icon"
               />
-              <img
+              <Image
                 src="img/icons/icon-5w.svg"
                 alt="icon"
+                height={50}
+                width={50}
                 className="trm-white-icon"
               />
             </div>
@@ -60,14 +66,18 @@ const ContactInfo = () => {
         >
           <div className="trm-service-content">
             <div className="trm-icon">
-              <img
+              <Image
                 src="img/icons/icon-6.svg"
                 alt="icon"
+                height={50}
+                width={50}
                 className="trm-black-icon"
               />
-              <img
+              <Image
                 src="../public/img/icons/icon-6w.svg"
                 alt="icon"
+                height={50}
+                width={50}
                 className="trm-white-icon"
               />
             </div>

@@ -21,6 +21,7 @@ const Price = () => {
           {/* card header end */}
           {/* badge */}
           <div className="trm-price-number">
+          {/*<script src="https://tryhackme.com/badge/2424710"></script> */}
           <img src="https://tryhackme-badges.s3.amazonaws.com/Coder4113n.png" alt="TryHackMe" />
           </div>
           {/* badge end */}

@@ -1,5 +1,6 @@
 import { typing } from "../utility/typing";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const SideBar = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const SideBar = () => {
           {/* card header */}
           <div className="trm-mc-header">
             <div className="trm-avatar-frame trm-mb-20">
-              <img className="trm-avatar" src="/img/avatar.avif" alt="Avatar" />
+              <Image className="trm-avatar" src="/img/avatar.avif" alt="Avatar" width={50} height={50} />
               <div className="trm-dot" />
             </div>
             <h5 className="trm-name trm-mb-15">Anupa Dinuranga</h5>

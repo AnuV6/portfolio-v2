@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 const portfolioItems = [
   { id: 1, img: "/img/portfolio/gobus.webp", title: "GoBus Application", githubUrl: "https://github.com/AnuV6/GoBus-App" },
@@ -28,7 +29,7 @@ const Portfolio = () => {
             data-cat="icon"
           >
             <div className="trm-cover-frame">
-              <img className="trm-cover" src={item.img} alt="item" />
+              <Image className="trm-cover" src={item.img} alt="item" width={100} height={100} />
             </div>
             <div className="trm-item-description">
               {/* Separate click area for project title */}
