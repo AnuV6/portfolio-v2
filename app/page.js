@@ -4,7 +4,6 @@ import Counter from "/components/Counter";
 import History from "/components/History";
 import Portfolio from "/components/Portfolio";
 import Price from "/components/Price";
-import Services from "/components/Services";
 import Skills from "/components/Skills";
 import Story from "/components/Story";
 import Testimonials from "/components/Testimonials";
@@ -26,11 +25,9 @@ const Index = () => {
       <Story />
       {/* text end */}
       {/* video resume */}
-      <VideoResume />
+      <VideoResume /><br />
+      <br />
       {/* video resume end */}
-      {/* services */}
-      <Services />
-      {/* services end */}
       <div
         data-scroll
         data-scroll-repeat
