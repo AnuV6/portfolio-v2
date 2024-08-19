@@ -6,6 +6,8 @@ const portfolioItems = [
   { id: 2, img: "/img/portfolio/ui.webp", title: "UrbenEats UI Design", githubUrl: "https://github.com/AnuV6/UrbenEatsApp-UI-Design" },
   { id: 3, img: "/img/portfolio/qr.webp", title: "Attendance Marking System", githubUrl: "https://github.com/AnuV6/QRscanner" },
   { id: 4, img: "/img/portfolio/soon.webp", title: "Mobile Application", githubUrl: "https://github.com/AnuV6/CareerPulse-Mobile-App" },
+  { id: 5, img: "/img/portfolio/portfolio.webp", title: "Next Js Portfolio", githubUrl: "https://github.com/AnuV6/portfolio-v2"},
+  { id:6, img: "/img/portfolio/redesign.webp", title: "Redesign of the SLTMobitel Selfcare App ", githubUrl: "https://www.linkedin.com/posts/anupadinuranga_redesign-of-the-sltmobitel-selfcare-app-activity-7230859867144515584-S6uG?utm_source=share&utm_medium=member_desktop"},
   //add more items here...
 ];
 
