@@ -24,9 +24,6 @@ jobs:
     - name: Build the Next.js app
       run: npm run build
 
-    - name: Upload production-ready build artifacts
-      run: npm run export
-
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
