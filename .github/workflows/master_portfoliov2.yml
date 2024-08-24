@@ -3,7 +3,7 @@ name: Azure CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Triggers the workflow on push to the main branch
+      - master  # Triggers the workflow on push to the main branch
 
 jobs:
   build-and-deploy:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Use the appropriate Node.js version
+        node-version: '20'  # Use the appropriate Node.js version
 
     - name: Install dependencies
       run: npm install
@@ -30,7 +30,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: YOUR_APP_NAME  # Replace with your Azure Web App name
+        app-name: porfolioV2  # Replace with your Azure Web App name
         slot-name: production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3E450F16BC4F42EDA2524DE213B0244F  }}
 
