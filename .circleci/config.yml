@@ -23,9 +23,13 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
+      - checkout
       - run:
-          name: deploy
-          command: './deploy.sh'
+          name: Install Firebase CLI
+          command: curl -sL https://firebase.tools | bash
+      - run:
+          name: Deploy to Firebase
+          command: firebase deploy --only hosting --token $FIREBASE_DEPLOY_TOKEN
 
 workflows:
   build-and-deploy:
