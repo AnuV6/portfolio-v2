@@ -27,6 +27,14 @@ jobs:
       - run:
           name: Create the out directory if it doesn't exist
           command: mkdir -p out
+  firebase-init:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Firebase Init
+          command: firebase init
   deploy:
     docker:
       - image: cimg/base:stable
@@ -46,6 +54,9 @@ workflows:
       - update-out-folder:
           requires:
             - build-node
-      - deploy:
+      - firebase-init:
           requires:
             - update-out-folder
+      - deploy:
+          requires:
+            - firebase-init
