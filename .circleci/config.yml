@@ -54,9 +54,6 @@ workflows:
       - update-out-folder:
           requires:
             - build-node
-      - firebase-init:
-          requires:
-            - update-out-folder
       - deploy:
           requires:
             - firebase-init
