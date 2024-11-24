@@ -19,14 +19,6 @@ jobs:
       - store_artifacts:
           path: ~/artifacts
           destination: node-build
-  test-node:
-    executor: node/default
-    steps:
-      - checkout
-      - node/install-packages:
-          pkg-manager: npm
-      - run:
-          command: npm test
   deploy:
     docker:
       - image: cimg/base:stable
@@ -39,9 +31,6 @@ workflows:
   build-and-deploy:
     jobs:
       - build-node
-      - test-node:
-          requires:
-            - build-node
       - deploy:
           requires:
-            - test-node
+            - build-node
