@@ -140,7 +140,7 @@ const HardSkills = () => {
               <span className="trm-label trm-label-light">80%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p70" />
+              <div className="trm-progressbar p80" />
             </div>
           </div>
           <div>
