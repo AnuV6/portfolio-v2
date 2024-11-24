@@ -19,6 +19,14 @@ jobs:
       - store_artifacts:
           path: ~/artifacts
           destination: node-build
+  update-out-folder:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Create the out directory if it doesn't exist
+          command: mkdir -p out
   deploy:
     docker:
       - image: cimg/base:stable
@@ -35,6 +43,9 @@ workflows:
   build-and-deploy:
     jobs:
       - build-node
-      - deploy:
+      - update-out-folder:
           requires:
             - build-node
+      - deploy:
+          requires:
+            - update-out-folder
