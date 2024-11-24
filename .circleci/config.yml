@@ -1,11 +1,8 @@
-# This config was automatically generated from your source code
-# Stacks detected: cicd:github-actions:.github/workflows,deps:node:.
 version: 2.1
 orbs:
   node: circleci/node@5
 jobs:
   build-node:
-    # Build node project
     executor: node/default
     steps:
       - checkout
@@ -16,7 +13,6 @@ jobs:
       - run:
           name: Create the ~/artifacts directory if it doesn't exist
           command: mkdir -p ~/artifacts
-      # Copy output to artifacts dir
       - run:
           name: Copy artifacts
           command: cp -R build dist public .output .next .docusaurus ~/artifacts 2>/dev/null || true
@@ -24,21 +20,21 @@ jobs:
           path: ~/artifacts
           destination: node-build
   deploy:
-    # This is an example deploy job, not actually used by the workflow
     docker:
       - image: cimg/base:stable
     steps:
-      # Replace this with steps to deploy to users
+      - checkout
       - run:
-          name: deploy
-          command: '#e.g. ./deploy.sh'
+          name: Install Firebase CLI
+          command: curl -sL https://firebase.tools | bash
       - run:
-          name: found github actions config
-          command: ':'
+          name: Deploy to Firebase
+          command: firebase deploy --only hosting --token $FIREBASE_DEPLOY_TOKEN
+
 workflows:
-  build:
+  build-and-deploy:
     jobs:
       - build-node
-    # - deploy:
-    #     requires:
-    #       - build-node
+      - deploy:
+          requires:
+            - build-node
