@@ -1,0 +1,26 @@
+$accent: #AFB42B;
+$accent-2: #C0CA33;
+
+$text: rgba(222,222,224,1);
+$text-2: rgba(204,205,207,.7);
+
+$bg-2: #02162B;
+$bg: #00283A;
+
+$title: rgba(252,252,254,1);
+
+$divider: rgba(225,225,235,.15);
+
+$shadow: rgba(0,0,0,.6);
+
+.trm-black-icon {
+  display: none;
+}
+
+.trm-white-icon {
+  opacity: .4;
+}
+
+.trm-logo-text {
+  color: $title;
+}

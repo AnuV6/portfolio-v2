@@ -1,0 +1,460 @@
+/***************************
+
+font
+
+***************************/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/***************************
+
+typography
+
+***************************/
+.portfolio {
+  transition: .4s ease-in-out;
+}
+body {
+  font-size: 14px;
+  font-weight: 500;
+  color: $text-2;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-weight: 800;
+  color: $text;
+  margin-bottom: 0;
+}
+
+.h1,
+h1 {
+  font-weight: 900;
+  font-size: 64px;
+}
+
+p {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .h1,
+  h1 {
+    font-size: 48px;
+  }
+}
+
+.trm-text-sm {
+  font-size: 12px;
+}
+
+.trm-text-lg {
+  font-size: 16px;
+}
+
+.trm-contrast {
+  color: $text !important;
+  opacity: 1 !important;
+}
+
+.trm-accent-color {
+  color: $accent;
+}
+
+.trm-label {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: $text;
+  transition: 0.4s ease-in-out;
+
+  &.trm-label-light {
+    color: $text-2;
+  }
+
+  &.trm-label-color {
+    color: $accent;
+  }
+}
+
+a.trm-label {
+  & i {
+    margin-top: -1px;
+    margin-left: 10px;
+  }
+
+  & .fa-arrow-right {
+    margin-top: -1px;
+    margin-left: 5px;
+    transition: 0.4s ease-in-out;
+  }
+
+  &:focus,
+  &:hover {
+    outline: inherit;
+    color: $accent;
+
+    & .fa-arrow-right {
+      transform: translateX(5px);
+      color: inherit;
+    }
+  }
+}
+
+.trm-title-with-divider {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  & span {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 35px;
+    display: inline-block;
+    height: 1px;
+    border-bottom: dotted 2px $divider;
+    width: 100%;
+
+    &:after {
+      content: attr(data-number);
+      border-radius: 50%;
+      position: absolute;
+      font-size: 11px;
+      font-weight: 600;
+      text-align: center;
+      color: $text-2;
+      opacity: 0.8;
+      width: 15px;
+      height: 15px;
+      top: -6px;
+      right: -35px;
+    }
+  }
+}
+
+.trm-list {
+  padding: 0;
+  & li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    color: $text;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: 0;
+      height: 10px;
+      width: 10px;
+      border: solid 3px $accent;
+      border-radius: 50%;
+    }
+  }
+}
+
+blockquote {
+  box-shadow: 0 2px 4px -2px $shadow;
+  padding: 0;
+  margin: 0;
+  display: block;
+  position: relative;
+  background-color: $bg;
+  color: $text;
+  padding: 40px;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+
+  &:before {
+    margin: 0;
+    color: $accent;
+    width: 50px;
+    line-height: 55px;
+    content: '"';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 54px;
+  }
+
+  &:after {
+    margin: 0;
+    width: 50px;
+    color: $accent;
+    line-height: 55px;
+    content: '"';
+    position: absolute;
+    bottom: -20px;
+    right: 2px;
+    font-size: 54px;
+  }
+
+  &.trm-color-quote {
+    background-color: $bg-2;
+    box-shadow: inset 0 0 4px -1px $shadow;
+
+    &:before {
+      color: $accent;
+    }
+
+    &:after {
+      color: $accent;
+    }
+  }
+}
+
+.trm-just-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.trm-card {
+  padding: 40px;
+  background-color: $bg;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 4px -2px $shadow;
+
+  & .trm-icon {
+    font-size: 22px;
+    color: $text;
+    margin-bottom: 20px;
+  }
+}
+/***************************
+
+button
+
+***************************/
+.trm-btn {
+  white-space: nowrap;
+  background-color: $accent;
+  height: 45px;
+  border: solid 2px $accent;
+  color: $title;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  display: inline-flex;
+  padding: 0 35px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+
+  & i {
+    margin-top: -1px;
+    margin-left: 10px;
+
+    &.fa-paper-plane {
+      margin-left: 0;
+    }
+  }
+
+  & .fa-arrow-right {
+    margin-top: -1px;
+    margin-left: 10px;
+    transition: 0.4s ease-in-out;
+  }
+
+  & .fa-arrow-left {
+    margin-top: -1px;
+    margin-right: 10px;
+    transition: 0.4s ease-in-out;
+  }
+
+  &.trm-btn-sm {
+    height: 40px;
+    padding: 0 25px;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+    color: $title;
+    background-color: $accent-2;
+    border: solid 2px $accent-2;
+
+    & .fa-arrow-right {
+      transform: translateX(5px);
+    }
+
+    & .fa-arrow-left {
+      transform: translateX(-5px);
+    }
+  }
+
+  &.trm-btn-border {
+    border: solid 2px $title;
+    background-color: transparent;
+
+    &:hover {
+      border: solid 2px $title;
+      background-color: transparent;
+    }
+  }
+
+  &.trm-btn-circle {
+    padding: 0;
+    width: 45px;
+    border-radius: 50%;
+
+    &.trm-btn-sm {
+      width: 40px;
+    }
+
+    & i {
+      font-size: 13px;
+      margin: 0;
+    }
+  }
+
+  &:focus {
+    outline: inherit;
+  }
+}
+/***************************
+
+form
+
+***************************/
+form {
+  position: relative;
+  width: 100%;
+
+  & input {
+    color: $text;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: inset 0 0 4px -1px $shadow;
+    background-color: $bg-2;
+    padding: 0 20px;
+
+    &:focus {
+      outline: inherit;
+    }
+  }
+
+  & textarea {
+    color: $text;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: none;
+    box-shadow: inset 0 0 4px -1px $shadow;
+    background-color: $bg-2;
+    padding: 15px 20px;
+
+    &:focus {
+      outline: inherit;
+    }
+  }
+}
+/***************************
+
+scroll animation
+
+***************************/
+.trm-scroll-animation {
+  transform: translateY(30px) scale(1.02);
+  opacity: 0;
+  transition: 0.6s ease-in-out;
+
+  &.trm-active-el {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+/***************************
+
+page transition
+
+***************************/
+.trm-swup-animation {
+  transition: 0.6s ease-in-out;
+  transition-delay: 0.6s;
+}
+
+html.is-animating {
+  & .trm-preloader {
+    opacity: 1;
+    transition-delay: 0s;
+  }
+
+  & .trm-swup-animation {
+    opacity: 0;
+    transition-delay: 0s;
+  }
+}
+/***************************
+
+spaces
+
+***************************/
+.trm-mb-15 {
+  margin-bottom: 15px;
+}
+
+.trm-mb-20 {
+  margin-bottom: 20px;
+}
+
+.trm-mb-30 {
+  margin-bottom: 30px;
+}
+
+.trm-mb-40 {
+  margin-bottom: 40px;
+}
+
+.trm-mt-20 {
+  margin-top: 20px;
+}
+
+.trm-mt-40 {
+  margin-top: 40px;
+}
+
+.trm-divider {
+  height: 1px;
+  border-bottom: dotted 2px $divider;
+  width: 100%;
+}
