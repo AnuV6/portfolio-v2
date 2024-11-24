@@ -1,59 +1,27 @@
 version: 2.1
+
 orbs:
   node: circleci/node@5
+
 jobs:
-  build-node:
-    executor: node/default
+  build-and-deploy:
+    docker:
+      - image: cimg/node:lts  # Using Node.js image with LTS version for both building and deploying
     steps:
       - checkout
       - node/install-packages:
           pkg-manager: npm
       - run:
+          name: Build the Application
           command: npm run build
-      - run:
-          name: Create the ~/artifacts directory if it doesn't exist
-          command: mkdir -p ~/artifacts
-      - run:
-          name: Copy artifacts
-          command: cp -R build dist public .output .next .docusaurus ~/artifacts 2>/dev/null || true
-      - store_artifacts:
-          path: ~/artifacts
-          destination: node-build
-  update-out-folder:
-    docker:
-      - image: cimg/base:stable
-    steps:
-      - checkout
-      - run:
-          name: Create the out directory if it doesn't exist
-          command: mkdir -p out
-  firebase-init:
-    docker:
-      - image: cimg/base:stable
-    steps:
-      - checkout
-      - run:
-          name: Firebase Init
-          command: firebase init
-  deploy:
-    docker:
-      - image: cimg/base:stable
-    steps:
-      - checkout
       - run:
           name: Install Firebase CLI
           command: curl -sL https://firebase.tools | bash
       - run:
-          name: Deploy to Firebase
+          name: Deploy to Firebase Hosting
           command: firebase deploy --only hosting --token $FIREBASE_DEPLOY_TOKEN
 
 workflows:
   build-and-deploy:
     jobs:
-      - build-node
-      - update-out-folder:
-          requires:
-            - build-node
-      - deploy:
-          requires:
-            - firebase-init
+      - build-and-deploy
