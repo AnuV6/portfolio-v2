@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="col-lg-12">
         {/* title */}
         <h5 className="trm-mb-40 trm-title-with-divider">
-          Certificates <span data-number={9} />
+        Achievements <span data-number={9} />
         </h5>
 
         {/* certificates slider */}
