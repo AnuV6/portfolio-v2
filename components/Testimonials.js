@@ -19,6 +19,13 @@ const Testimonials = () => {
           data-scroll-offset={40}
         >
           <SwiperSlide className="swiper-slide">
+          <div
+              className="trm-testimonial-card"
+              data-swiper-parallax=""
+              data-swiper-parallax-scale=".8"
+              data-swiper-parallax-opacity={0}
+              data-swiper-parallax-duration={800}
+            >
             <div className="trm-testimonial-card">
               <div className="trm-testimonial-author">
                 <Image src="/img/certificates/cicra.webp" alt="10th Annual Cyber Security Summit 2024!" width={1000} height={800} />
@@ -33,9 +40,17 @@ const Testimonials = () => {
                 </p>
               </div>
             </div>
+          </div>
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide">
+          <div
+              className="trm-testimonial-card"
+              data-swiper-parallax=""
+              data-swiper-parallax-scale=".8"
+              data-swiper-parallax-opacity={0}
+              data-swiper-parallax-duration={800}
+            >
             <div className="trm-testimonial-card">
               <div className="trm-testimonial-author">
                 <Image src="/img/certificates/nsbm.webp" alt="Algoxplore 1.0 " width={1000} height={800} />
@@ -49,6 +64,7 @@ const Testimonials = () => {
                 Thrilled to announce that our team, Yakuza, has been a part of the Inter-University Hackathon Algoxplore 1.0. This incredible journey has been filled with challenges, learning, and teamwork.
                 </p>
               </div>
+            </div>
             </div>
           </SwiperSlide>
 
