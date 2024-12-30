@@ -19,6 +19,29 @@ const Testimonials = () => {
           data-scroll-offset={40}
         >
           <SwiperSlide className="swiper-slide">
+            <div
+              className="trm-testimonial-card"
+              data-swiper-parallax=""
+              data-swiper-parallax-scale=".8"
+              data-swiper-parallax-opacity={0}
+              data-swiper-parallax-duration={800}
+            >
+              <div className="trm-testimonial-author">
+                <Image src="/img/certificates/medusa.webp" alt="medusa" width={1000} height={800} />
+                <h6 className="trm-mb-15">Champions of Medusa 1.0</h6>
+                <div className="trm-text-sm trm-accent-color">
+                  <i>University of Kelaniya</i>
+                </div>
+              </div>
+              <div className="trm-testimonial-text">
+                <p>
+                  Champions of Medusa 1.0, a Capture The Flag competition organized by the University of Kelaniya.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="swiper-slide">
           <div
               className="trm-testimonial-card"
               data-swiper-parallax=""
@@ -29,14 +52,14 @@ const Testimonials = () => {
             <div className="trm-testimonial-card">
               <div className="trm-testimonial-author">
                 <Image src="/img/certificates/cicra.webp" alt="10th Annual Cyber Security Summit 2024!" width={1000} height={800} />
-                <h6 className="trm-mb-15">10th Annual Cyber Security Summit 2024!</h6>
+                <h6 className="trm-mb-15">10<sup>th</sup> Annual Cyber Security Summit 2024!</h6>
                 <div className="trm-text-sm trm-accent-color">
                   <i>CICRA Campus</i>
                 </div>
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                Achieved 2nd runners-up in the CTF Challenge at the 10th Annual Cyber Security Summit 2024, organized by CICRA Campus.
+                Achieved 2<sup>nd</sup> runners-up in the CTF Challenge at the 10<sup>th</sup> Annual Cyber Security Summit 2024, organized by CICRA Campus.
                 </p>
               </div>
             </div>
