@@ -35,7 +35,7 @@ const Testimonials = () => {
               </div>
               <div className="trm-testimonial-text">
                 <p>
-                  Champions of Medusa 1.0, a Capture The Flag competition organized by the University of Kelaniya.
+                  Secured the 1<sup>st</sup> place in the Medusa 1.0 CTF competition organized by the University of Kelaniya. 
                 </p>
               </div>
             </div>
