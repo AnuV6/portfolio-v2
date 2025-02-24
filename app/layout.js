@@ -11,10 +11,10 @@ import State from "/context/context";
 
 export const metadata = {
   title: "Anupa Dinuranga",
-  description: "Web portfolio of Anupa Dinuranga, a web developer and cyber security enthusiast. Anupa is a fullstack developer with a passion for web security and ethical hacking. He is a web security researcher, consultant, expert, specialist, professional, engineer, analyst, architect, auditor, trainer, instructor, coach, mentor, and tutor. Anupa is also a CTF player, competitor, enthusiast, and participant. He is skilled in networking, React, Next.js, MERN stack, and web design.",
-  keywords: "Anupa Dinuranga, Web Developer, Portfolio, React, Next.js, Cyber Security, Ethical Hacking, Penetration Testing, Web Design, Web Security, Web Security Researcher, Web Security Consultant, Web Security Expert, Web Security Specialist, Web Security Professional, Web Security Engineer, Web Security Analyst, Web Security Architect, Web Security Auditor, Web Security Trainer, Web Security Instructor, Web Security Coach, Web Security Mentor, Web Security Tutor, CTF Player, CTF Competitor, CTF Enthusiast, CTF Participant, Networking, Fullstack Developer, Frontend Developer, Backend Developer, MERN Stack Developer",
+  description: "Anupa Dinuranga is a DevOps Engineer, Web Developer, and Cyber Security Researcher. He specializes in cloud computing, automation, and continuous integration/continuous deployment (CI/CD). He is proficient in AWS, Azure, and Google Cloud Platform (GCP). He is also a Web Security Expert, Fullstack Developer, and CTF Enthusiast.",
+  keywords: "Anupa Dinuranga, DevOps Engineer, Cloud Computing, AWS, Azure, GCP, CI/CD, Automation, Docker, Web Developer, Portfolio, React, Next.js, Cyber Security, Ethical Hacking, Penetration Testing, Web Design, Web Security, Fullstack Developer, Frontend Developer, Backend Developer, MERN Stack Developer, CTF player",
   image: "https://www.anupadinuranga.live/img/avatar.avif",
-  url: "https://www.anupadinuranga.live",  
+  url: "https://www.anupadinuranga.live",
 };
 
 export default function RootLayout({ children }) {
