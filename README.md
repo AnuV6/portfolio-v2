@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://anupadinuranga.live)**.
+## To view a live example, **[click here](https://www.anupa.live)**.
 
 But if you want to **contribute** and make this much better for other developers have a look at
 [Issues](https://github.com/AnuV6/portfolio-v2/issues).
@@ -43,7 +43,8 @@ If you created something awesome and want to contribute then feel free to open a
 
 ### Getting Started:
 
--  Clone the repository: ```git clone https://docs.github.com/articles/cloning-a-repository (Replace with your repository URL)```
+-  Clone the repository: ```git clone https://github.com/AnuV6/portfolio-v2.git```
+-  Navigate to the project directory: ```cd portfolio-v2```
 -  Install dependencies: ```npm install (or yarn install)```
 -  Start the development server: ```npm run dev (or yarn dev)```
 -  Visit http://localhost:3000 to view your portfolio in development mode
@@ -91,6 +92,6 @@ Give a ⭐️ if this project helped you! You can buy me a coffee if you'd like 
 
 👤 **Coder Allen**
 
-- Website: [Anupa_Dinuranga](https://anupadinuranga.live)
+- Website: [Anupa_Dinuranga](https://www.anupa.live)
 - Github: [@AnuV6](https://github.com/AnuV6)
 - LinkedIn: [@anupadinuranga](https://linkedin.com/in/anupadinuranga)
