@@ -13,8 +13,8 @@ export const metadata = {
   title: "Anupa Dinuranga",
   description: "Anupa Dinuranga is a DevOps Engineer, Web Developer, and Cyber Security Researcher. He specializes in cloud computing, automation, and continuous integration/continuous deployment (CI/CD). He is proficient in AWS, Azure, and Google Cloud Platform (GCP). He is also a Web Security Expert, Fullstack Developer, and CTF Enthusiast.",
   keywords: "Anupa Dinuranga, DevOps Engineer, Cloud Computing, AWS, Azure, GCP, CI/CD, Automation, Docker, Web Developer, Portfolio, React, Next.js, Cyber Security, Ethical Hacking, Penetration Testing, Web Design, Web Security, Fullstack Developer, Frontend Developer, Backend Developer, MERN Stack Developer, CTF player",
-  image: "https://www.anupadinuranga.live/img/avatar.avif",
-  url: "https://www.anupadinuranga.live",
+  image: "https://www.anupa.live/img/avatar.avif",
+  url: "https://www.anupa.live",
 };
 
 export default function RootLayout({ children }) {
