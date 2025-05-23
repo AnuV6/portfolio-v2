@@ -12,7 +12,7 @@ const Story = () => {
           data-scroll=""
           data-scroll-offset={40}
         >
-          ICT undergrad with a burning passion for Cybersecurity. I'm coding my way to a DevOps career, where I can combine my technical skills to build secure and automated systems.
+          ICT undergrad and current DevOps Engineer intern with a burning passion for Cybersecurity. I'm coding my way to a DevOps career, where I can combine my technical skills to build secure and automated systems. My goal is to collaborate my cybersecurity and DevOps knowledge for a future DevSecOps role.
         </blockquote>
         {/* quote end */}
       </div>

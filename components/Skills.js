@@ -92,7 +92,7 @@ const HardSkills = () => {
         >
           <div className="trm-mb-40">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Full Stack</h6>
+              <h6 className="trm-mb-15">DevOps Practices</h6>
               <span className="trm-label trm-label-light">90%</span>
             </div>
             <div className="trm-progressbar-frame">
@@ -101,20 +101,20 @@ const HardSkills = () => {
           </div>
           <div className="trm-mb-40">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">SIEM</h6>
-              <span className="trm-label trm-label-light">70%</span>
+              <h6 className="trm-mb-15">Cloud Computing</h6>
+              <span className="trm-label trm-label-light">80%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p90" />
+              <div className="trm-progressbar p80" />
             </div>
           </div>
           <div>
             <div className="trm-skill-header">
               <h6 className="trm-mb-15">Networking</h6>
-              <span className="trm-label trm-label-light">80%</span>
+              <span className="trm-label trm-label-light">70%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p80" />
+              <div className="trm-progressbar p70" />
             </div>
           </div>
         </div>
@@ -127,20 +127,20 @@ const HardSkills = () => {
         >
           <div className="trm-mb-40">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">Cloud Computing</h6>
-              <span className="trm-label trm-label-light">80%</span>
+              <h6 className="trm-mb-15">Application Security</h6>
+              <span className="trm-label trm-label-light">60%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p80" />
+              <div className="trm-progressbar p60" />
             </div>
           </div>
           <div className="trm-mb-40">
             <div className="trm-skill-header">
-              <h6 className="trm-mb-15">DevOps</h6>
-              <span className="trm-label trm-label-light">80%</span>
+              <h6 className="trm-mb-15">Web Development</h6>
+              <span className="trm-label trm-label-light">70%</span>
             </div>
             <div className="trm-progressbar-frame">
-              <div className="trm-progressbar p80" />
+              <div className="trm-progressbar p70" />
             </div>
           </div>
           <div>

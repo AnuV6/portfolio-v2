@@ -47,7 +47,7 @@ const ContactInfo = () => {
             <h6 className="trm-mb-20">Call</h6>
             <div className="trm-mb-15">
               <span className="trm-label">Work:</span>{" "}
-              <span className="trm-text-sm">+94 (070) 406 73 00</span>
+              <span className="trm-text-sm">+94 (076) 103 34 90</span>
             </div>
             <div>
               <span className="trm-label">Personal:</span>{" "}
