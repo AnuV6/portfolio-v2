@@ -27,6 +27,35 @@ const Testimonials = () => {
               data-swiper-parallax-duration={800}
             >
               <div className="trm-testimonial-author">
+                <Image src="/img/certificates/sliit.png" alt="sliit" width={1000} height={800} />
+                <h6 className="trm-mb-15">Winner of CyberShield 4.0</h6>
+                <div className="trm-text-sm trm-accent-color">
+                  <i>SLIIT</i>
+                </div>
+              </div>
+              <div className="trm-testimonial-text">
+                <p>
+                  Secured the 1<sup>st</sup> place in the CyberShield 4.0 CTF competition organized by the SLIIT. 
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+                
+        <Swiper
+          {...sliderProps.testimonials}
+          className="swiper-container trm-testimonials-slider trm-scroll-animation"
+          data-scroll=""
+          data-scroll-offset={40}
+        >
+          <SwiperSlide className="swiper-slide">
+            <div
+              className="trm-testimonial-card"
+              data-swiper-parallax=""
+              data-swiper-parallax-scale=".8"
+              data-swiper-parallax-opacity={0}
+              data-swiper-parallax-duration={800}
+            >
+              <div className="trm-testimonial-author">
                 <Image src="/img/certificates/medusa.webp" alt="medusa" width={1000} height={800} />
                 <h6 className="trm-mb-15">Champions of Medusa 1.0</h6>
                 <div className="trm-text-sm trm-accent-color">
