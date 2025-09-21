@@ -41,12 +41,6 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
                 
-        <Swiper
-          {...sliderProps.testimonials}
-          className="swiper-container trm-testimonials-slider trm-scroll-animation"
-          data-scroll=""
-          data-scroll-offset={40}
-        >
           <SwiperSlide className="swiper-slide">
             <div
               className="trm-testimonial-card"
