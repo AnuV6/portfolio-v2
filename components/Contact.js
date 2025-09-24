@@ -25,20 +25,26 @@ const ContactForm = () => {
     e.preventDefault();
     setLoading(true);
 
+    const templateParams = {
+      from_name: formData.user_name,
+      from_email: formData.user_email,
+      message: formData.message,
+    };
+
     emailjs
       .send(
-        "service_ezoya0g", 
-        "template_cs7j7xd", 
-        formData,
-        "4_mYOXiLFhfgP63-V"     
+        "service_ezoya0g",    // ✅ your service ID
+        "template_cs7j7xd",   // ✅ your template ID
+        templateParams,       // ✅ send custom params
+        "4_mYOXiLFhfgP63-V"   // ✅ your public key
       )
       .then(
         () => {
-          toast.success("✅ Message sent successfully!");
+          toast.success("Message sent successfully! ✅");
           setFormData({ user_name: "", user_email: "", message: "" });
         },
         () => {
-          toast.error("❌ Failed to send message. Please try again.");
+          toast.error("Failed to send message. Please try again. ❌");
         }
       )
       .finally(() => setLoading(false));
