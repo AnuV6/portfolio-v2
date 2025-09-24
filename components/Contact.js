@@ -26,17 +26,18 @@ const ContactForm = () => {
     setLoading(true);
 
     const templateParams = {
-      from_name: formData.user_name,
-      from_email: formData.user_email,
-      message: formData.message,
+      name: formData.user_name,    
+      email: formData.user_email,  
+      message: formData.message,   
     };
+
 
     emailjs
       .send(
-        "service_ezoya0g",    // ✅ your service ID
-        "template_cs7j7xd",   // ✅ your template ID
-        templateParams,       // ✅ send custom params
-        "4_mYOXiLFhfgP63-V"   // ✅ your public key
+        "service_ezoya0g",    
+        "template_cs7j7xd",   
+        templateParams,     
+        "4_mYOXiLFhfgP63-V"   
       )
       .then(
         () => {
