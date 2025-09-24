@@ -74,7 +74,7 @@ const SideBar = () => {
           {/* info end */}
           {/* action button */}
           <div className="text-center trm-mt-10 trm-mb-10">
-            <a  href="mailto:anupa4085@gmail.com" className="trm-btn">
+            <a  href="#contact" className="trm-btn">
               Contact me <i className="far fa-envelope" />
             </a>
           </div>
