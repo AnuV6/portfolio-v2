@@ -27,10 +27,10 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        "service_ezoya0g", 
+        "template_cs7j7xd", 
         formData,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        "4_mYOXiLFhfgP63-V"     
       )
       .then(
         () => {
