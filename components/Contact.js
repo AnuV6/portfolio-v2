@@ -103,7 +103,7 @@ const ContactForm = () => {
         </div>
       </div>
       {/* Toast Notifications */}
-      <ToastContainer position="bottom-right" autoClose={3000} theme="dark" />
+      <ToastContainer position="top-right" autoClose={3000} theme="dark" />
     </div>
   );
 };
