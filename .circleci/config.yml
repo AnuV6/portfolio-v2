@@ -6,11 +6,12 @@ orbs:
 jobs:
   build-and-deploy:
     docker:
-      - image: cimg/node:lts  # Using Node.js image with LTS version for both building and deploying
+      - image: cimg/node:lts
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: npm
+      - run:
+          name: Install Dependencies
+          command: npm ci || npm install
       - run:
           name: Build the Application
           command: npm run build
